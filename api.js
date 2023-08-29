@@ -7,16 +7,15 @@ router.get('/vids', (req, res) => {
 })
 
 router.get('/vid/:vid', (req, res) => {
-    // data of video for the web :)
-    res.send("latest vids")
+    res.send(`vid ${req.params.vid}`)
 })
 
 router.post('/comment', (req, res) => {
-    res.send("comment")
+    res.send("comment :)")
 })
 
 router.post('/upload', (req, res) => {
-    res.send("upload")
+    res.send("video uploaded")
 })
 
 

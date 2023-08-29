@@ -10,7 +10,7 @@ app.use('/api', api);
 app.use('/vids', vids);
 
 app.get('/', (req, res) => {
-    res.send("hello world!");
+    res.send("the curlflix backend :3 ^_^");
 })
 
 app.listen(port, () => {
